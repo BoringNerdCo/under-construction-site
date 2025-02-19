@@ -60,6 +60,53 @@ h1 {
     }
 }
 
+@media only screen and (max-height: 550px) {
+    .logo {
+        margin-top: -100px;
+    }
+}
+
+@media only screen and (max-height: 505px) {
+    .logo {
+        margin-top: -150px;
+        margin-bottom: -170px;
+    }
+}
+
+@media only screen and (max-height: 440px) {
+    .logo {
+        margin-top: -170px;
+        margin-bottom: -200px;
+    }
+
+    #wts {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-height: 365px) {
+    .logo {
+        margin-top: -170px;
+        margin-bottom: -220px;
+    }
+
+    #wts {
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-height: 333px) {
+    .logo {
+        margin-top: -200px;
+        margin-bottom: -230px;
+    }
+
+    #wts {
+        margin-top: -20px;
+    }
+}
+
+
 
 @media only screen and (max-width: 445px) {
     .logo{
